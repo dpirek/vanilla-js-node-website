@@ -1,9 +1,7 @@
-const { textToHtml } = require('../util.string');
+const { textToHtml } = require('../utils/string');
 const { page } = require('./shared');
 
-function aboutPage(props) {
-  const { navList, footerLinks, aboutCopy, isLocal } = props;
-
+function aboutPage({ navList, footerLinks, aboutCopy, isLocal }) {
   return page({
     isLocal: isLocal,
     navList: navList,

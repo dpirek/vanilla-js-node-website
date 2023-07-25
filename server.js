@@ -1,6 +1,6 @@
 const http = require('http');
 const fs = require('fs');
-const { render, respondJson, parseBody, isStaticRequest, contentType, loadJson, loadText, isLocalRequest } = require('./util.string');
+const { render, respondJson, parseBody, isStaticRequest, contentType, loadJson, loadText, isLocalRequest } = require('./utils/string');
 const { homePage } = require('./components/homePage');
 const { searchPage } = require('./components/searchPage');
 const { aboutPage } = require('./components/aboutPage');
